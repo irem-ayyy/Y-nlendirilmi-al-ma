@@ -1,0 +1,265 @@
+body {
+  background-color: rgb(214, 238, 96);
+}
+/** menü start*/
+
+#nav {
+  background-color: white;
+}
+
+.container-fluid {
+  font-size: 30px;
+  width: 80em;
+}
+
+.container-fluid .navbar-brand {
+  color: rgb(206, 204, 129);
+  font-size: 30px;
+}
+
+.container-fluid .navbar-brand:hover {
+  color: rgb(20, 20, 18);
+}
+
+#col {
+  margin-left: 20em;
+}
+
+#col .navbar-nav a {
+  color: rgb(206, 204, 129);
+}
+
+#col .navbar-nav a:hover {
+  color: rgb(20, 20, 18);
+}
+
+#col .navbar-nav #bir {
+  margin-left: 1em;
+}
+
+#col .navbar-nav #iki {
+  margin-left: 1em;
+}
+
+#col .navbar-nav #üç {
+  margin-left: 1em;
+}
+
+/** menü end */
+
+/** welcome start */
+.carousel-slide {
+  margin-top: 7em;
+}
+
+.carousel-slide .carousel-inner .carousel-item h2 {
+  margin-left: 9em;
+  margin-right: 7em;
+  font-style: italic;
+}
+/** welcome end */
+
+/** sağlıklı yaşam kısmı start */
+.vucut {
+  margin-top: 4em;
+}
+/** v1 kısım start */
+.vucut .v1 {
+  display: flex;
+  font-size: 1.1em;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v1 img {
+  width: 33em;
+  margin-left: 2em;
+}
+/** v1 kısım end */
+
+/** v2 kısım start */
+.vucut .v2 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v2 img {
+  width: 33em;
+  height: 20em;
+  margin-left: 4em;
+}
+/** v2 kısım end */
+
+/** v3 kısım start */
+.vucut .v3 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v3 img {
+  width: 33em;
+  height: 20em;
+  margin-left: 4em;
+}
+/** v3 kısım end */
+
+/** v4 kısım start */
+.vucut .v4 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v4 img {
+  width: 33.5em;
+  height: 20em;
+  margin-left: 6em;
+}
+/** v4 kısım end */
+
+/** v5 kısım start */
+.vucut .v5 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v5 img {
+  width: 33.5em;
+  height: 20em;
+  margin-left: 12em;
+}
+/** v5 kısım end */
+
+/** v6 kısım start */
+.vucut .v6 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v6 img {
+  width: 33.5em;
+  height: 20em;
+  margin-left: 4em;
+}
+/** v6 kısım end */
+
+/** v7 kısım start */
+.vucut .v7 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v7 img {
+  width: 33.5em;
+  height: 20em;
+  margin-left: 8.7em;
+}
+/** v7 kısım end */
+
+/** v8 kısım start */
+.vucut .v8 {
+  display: flex;
+  font-size: 1.1em;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v8 img {
+  width: 33.6em;
+  height: 20em;
+  margin-left: 7em;
+}
+/** v8 kısım end */
+
+/** v9 kısım start */
+.vucut .v9 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v9 img {
+  margin-left: 13em;
+  width: 33.7em;
+}
+/** v9 kısım end */
+
+/** v10 kısım start */
+.vucut .v10 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v10 img {
+  margin-left: 10em;
+  width: 33.6em;
+}
+/** v10 kısım end */
+
+/** v11 kısım start */
+.vucut .v11 {
+  font-size: 1.1em;
+  display: flex;
+  background-color: rgb(245, 243, 243);
+}
+
+.vucut .v11 img {
+  margin-left: 16.3em;
+  width: 33.8em;
+  height: 20em;
+}
+/** v11 kısım end */
+
+/** sağlıklı yaşam kısmı end */
+
+/*! yaşam kısmı start */
+.hobi-listesi {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 12em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/*! yaşam kısmı start */
+
+/** son kısım start*/
+.son {
+  background-color: #ffffff;
+  margin-top: 12em;
+  height: 100px;
+}
+
+.son a {
+  text-decoration: none;
+  color: black;
+}
+
+/** son kısım end*/
