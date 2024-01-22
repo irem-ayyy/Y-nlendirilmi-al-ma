@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(214, 238, 96);
+}
+/** menü start*/
+
+#nav {
+  background-color: white;
+  position: fixed;
+}
+
+.container-fluid {
+  font-size: 30px;
+  width: 80em;
+}
+
+.container-fluid .navbar-brand {
+  color: rgb(206, 204, 129);
+  font-size: 30px;
+}
+
+.container-fluid .navbar-brand:hover {
+  color: rgb(20, 20, 18);
+}
+
+#col {
+  margin-left: 20em;
+}
+
+#col .navbar-nav a {
+  color: rgb(206, 204, 129);
+}
+
+#col .navbar-nav a:hover {
+  color: rgb(20, 20, 18);
+}
+
+#col .navbar-nav #bir {
+  margin-left: 1em;
+}
+
+#col .navbar-nav #iki {
+  margin-left: 1em;
+}
+
+#col .navbar-nav #üç {
+  margin-left: 1em;
+}
+
+/** menü end */
+
+/** ana sayfa start*/
+/** ilk kısım start*/
+
+#anasayfa .ilk-kisim {
+  display: flex;
+}
+
+#anasayfa .ilk-kisim .img1 {
+  width: 450px;
+  height: 400px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 10em;
+  margin-top: 10em;
+}
+
+#anasayfa .ilk-kisim .h1 {
+  margin-left: 1em;
+  margin-top: 8em;
+  color: rgb(6, 6, 6);
+}
+/** ilk kısım end*/
+
+/** ikinci kısım start*/
+#anasayfa .ikinci-kisim {
+  display: flex;
+}
+
+#anasayfa .ikinci-kisim .img2 {
+  width: 450px;
+  height: 400px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 10em;
+  margin-top: 14em;
+}
+
+#anasayfa .ikinci-kisim .yazi {
+  margin-left: 1em;
+  margin-top: 10em;
+  color: rgb(6, 6, 6);
+}
+/** ikinci kısım end*/
+
+/** üçüncü kısım start*/
+#anasayfa .ücüncü-kisim {
+  display: flex;
+}
+
+#anasayfa .ücüncü-kisim .img3 {
+  width: 450px;
+  height: 400px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 10em;
+  margin-top: 14em;
+}
+
+#anasayfa .ücüncü-kisim .yazi1 {
+  margin-left: 1em;
+  margin-top: 10em;
+  color: rgb(6, 6, 6);
+}
+/** üçüncü kısım end*/
+/** ana sayfa end*/
+
+/*! hobi anasayfa kısmı start */
+.hobi-listesi {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 12em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/*! hobi anasayfa kısmı end */
+
+/** son kısım start*/
+.son {
+  background-color: #ffffff;
+  margin-top: 12em;
+  height: 100px;
+}
+
+.son a {
+  text-decoration: none;
+  color: black;
+}
+
+/** son kısım end*/
